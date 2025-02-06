@@ -1,0 +1,167 @@
+.hero-label{
+    background-color: #f6f7fb;
+    border: 1px solid #f6f6f6;
+    border-radius: 4px;
+    padding: 4px 20px;
+}
+
+#hero-h1{
+    font-weight: 700;
+    line-height: 1.4;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 55px;
+    color: #33324E;
+}
+
+#hero-p{
+    font-size: 22px;
+    color: #767dac;
+}
+
+.hero-btn{
+    background-color: #4353ff;
+    color: #fff;
+    border: 1px solid #4353ff;
+    font-size: 15px; 
+    otline: none;
+    padding: .7rem 1.4rem;
+    font-weight: 600;
+    transition: all .4s;
+    border-radius: 5px;
+}
+
+#hero-span-one{
+    color: #4353ff;
+}
+
+#hero-span-two{
+    color: #FFFFFF80;
+}   
+
+.img{
+    min-height: 558px;
+    min-width: 546px;   
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.label-work p{
+    background-color: rgba(67,83,255,.2);
+    padding: 7px 22px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #4353ff;
+    font-weight: 700;
+    display: inline;
+}
+
+.label-work h3{
+    font-weight: 600;
+    font-size: 40px;
+    color: #33324e;
+}
+
+.icon{
+    background-color: #4353ff;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: black;
+}
+
+.icon i{
+    font-size: 70px;
+    color: #fff;
+}
+
+.bulb p{
+    background-color: #fff;
+    height:35px;
+    width: 35px;
+    border-radius: 50%;
+    color: #4353ff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bulb{
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    width: 30px;
+}
+
+.card h5{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.card p{
+    color: #767dac;
+    font-size: 18px;
+}
+.card-div{
+    position: relative;
+}
+
+.custom-space {
+    top: 70px;
+    left: 350px;
+}
+
+.custom-space1 {
+    top: 70px;
+    left: 340px;
+}
+
+.service{
+    background-color: #f6f7fb;
+}
+
+.service-hero h3{
+    color: #33324e;
+    font-size: 1.25 rem;
+}
+
+.service-hero p{
+    color: #767dac;
+
+}
+.wd i{
+    color: #33324e;
+}
+
+.wd:hover{
+    background-color: lightgrey;
+    opacity: 1;
+}
+
+.service h2{
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #33324E;
+}
+
+.service p{
+    color: #767dac;
+    font-size: 18px;
+}
+
+.service a{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #4353FF;
+    padding: .7rem 1.4rem;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.service-right-one i{
+    font-size: 30px;
+    padding-top: 20px;
+}
+

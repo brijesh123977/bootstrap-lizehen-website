@@ -1,0 +1,31 @@
+/* .nv{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+} */
+
+.logo{
+    width: 7rem;
+}
+
+.main{
+    background-color: #33324e;
+}
+
+.main-1 a, i{
+    color: rgba(255,255,255,.7);
+}
+
+.collapse ul li a{
+    color: #767DAC;
+}
+
+.singup-btn{
+    background: 1px solid black;
+    padding:2px 15px;
+    border-radius: 5px;
+    background-color: rgba(67,83,255,.25);
+    color: #4353ff;
+}
