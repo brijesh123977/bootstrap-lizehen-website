@@ -27,5 +27,9 @@
     padding:2px 15px;
     border-radius: 5px;
     background-color: rgba(67,83,255,.25);
+    
+}
+
+.singup-btn a{
     color: #4353ff;
 }
