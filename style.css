@@ -50,17 +50,15 @@
 
 .label-work p{
     background-color: rgba(67,83,255,.2);
-    padding: 7px 22px;
+    padding: 8px 22px;
     border-radius: 30px;
-    font-size: 18px;
     color: #4353ff;
-    font-weight: 700;
     display: inline;
 }
 
 .label-work h3{
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
     color: #33324e;
 }
 
@@ -165,3 +163,135 @@
     padding-top: 20px;
 }
 
+.pricing-span{
+    color: #767DAC;
+    font-size: 20px;
+}
+
+.card-body h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #4353FF;
+}
+
+.pricing-card:hover{
+    border: 1px solid #4353FF;
+}
+
+
+.bg{
+    background-image: url("bg-4.jpg");
+    width: auto;
+    height: auto;
+    background-size: cover;
+    position: relative;
+    background-position: center center; 
+}
+
+
+
+.bg-in-bg img{
+    width: 50px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.mx{
+    background-color: #f6f7fb;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.mx-in a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.ms img{
+    width: 150px;
+    height: 150px;
+}
+
+.ms-hr{
+    min-width: 290px;
+}
+
+.ms-i{
+    background-color: #f6f7fb;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms-i i{
+    color: #33324e;
+    font-size: 18px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-i{
+    font-size: 20px;
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-i i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-i{
+    position: absolute;
+    top: 130px;
+    right: 65px;
+}
+
+.blog{
+    background-color: #f6f7fb;
+}
+
+.card-in h5{
+    color: #33324e;
+}
+
+#cardf{
+    font-size: 14px;
+    color: #767dac;
+    font-weight: 600;
+}
+
+#card-text{
+    color: #767dac;
+    font-size: 17px;
+}
+
+.contact-bg{
+    background-color: #f6f7fb;
+}
+
+.contact-i i{
+    margin-top: 8px;
+    margin-right: 15px;
+    font-size: 20px;
+    color: #33324E;
+}
+
+.contact-i-in h6{
+    color: #33324E;
+}
+
+.contact-i-in p{
+    color: #767DAC;
+}
