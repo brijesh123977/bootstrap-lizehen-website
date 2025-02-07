@@ -127,7 +127,42 @@
 
 .service-hero p{
     color: #767dac;
+}
+.container-fluid {
+    background-color: #f6f7fb;
+}
 
+.i i{
+    font-size: 25px;
+}
+
+.service-part-two h2{
+    color: #33324E;
+}
+
+.service-part-two p{
+    color: #767DAC;
+}
+
+.service-part-two a{
+    background-color: #4353FF;
+    padding: .7rem 1.4rem;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.service-part-two-right h3{
+    color: #33324E;
+}
+
+.service-part-two-right h6{
+    color: #33324E;
+}
+
+.service-part-two-right p{
+    color: #767DAC;
 }
 .wd i{
     color: #33324e;
@@ -261,7 +296,9 @@
 .blog{
     background-color: #f6f7fb;
 }
-
+.card-in{
+    background-color: #f6f7fb;
+}
 .card-in h5{
     color: #33324e;
 }
