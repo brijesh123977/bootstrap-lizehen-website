@@ -295,3 +295,20 @@
 .contact-i-in p{
     color: #767DAC;
 }
+
+
+
+.footer{
+    background-color: #F6F7FB;
+}
+
+.flogo{
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fp p{
+    color: #767DAC;
+}
