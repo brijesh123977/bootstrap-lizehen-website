@@ -1,28 +1,36 @@
-
-.logo{
-    width: 7rem;
+.logo {
+  width: 7rem;
 }
 
-.main{
-    background-color: #33324e;
+.main {
+  background-color: #33324e;
 }
 
-.main-1 a, i{
-    color: rgba(255,255,255,.7);
+.main-1 a,
+i {
+  color: rgba(255, 255, 255, 0.7);
 }
 
-.collapse ul li a{
-    color: #767DAC;
+.collapse ul li a {
+  color: #767dac;
 }
 
-.singup-btn{
-    background: 1px solid black;
-    padding:2px 15px;
-    border-radius: 5px;
-    background-color: rgba(67,83,255,.25);
-    
+.singup-btn {
+  background: 1px solid black;
+  padding: 2px 15px;
+  border-radius: 5px;
+  background-color: rgba(67, 83, 255, 0.25);
 }
 
-.singup-btn a{
-    color: #4353ff;
+.singup-btn a {
+  color: #4353ff;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  padding-right: 90px;
+  padding-left: 90px;
 }
