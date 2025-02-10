@@ -9,12 +9,12 @@
     font-weight: 700;
     line-height: 1.4;
     font-family: "Nunito Sans",sans-serif;
-    font-size: 55px;
+    font-size: 45px;
     color: #33324E;
 }
 
 #hero-p{
-    font-size: 22px;
+    font-size: 20px;
     color: #767dac;
 }
 
@@ -73,8 +73,8 @@
 }
 
 .img img{
-    width: 90%;
-    height: 95%;
+    width: 85%;
+    height: 90%;
 }
 
 .label-work p{
@@ -83,6 +83,7 @@
     border-radius: 30px;
     color: #4353ff;
     display: inline;
+    font-size: 13px;
 }
 
 .label-work h3{
@@ -93,35 +94,34 @@
 
 .icon{
     background-color: #4353ff;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
     border-radius: 50%;
-    color: black;
 }
 
 .icon i{
-    font-size: 70px;
+    font-size: 50px;
     color: #fff;
 }
 
 .bulb p{
     background-color: #fff;
-    height:35px;
-    width: 35px;
+    height:28px;
+    width: 28px;
     border-radius: 50%;
     color: #4353ff;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 15px;
 }
 
 .bulb{
     position: absolute;
-    top: 15px;
-    right: 0px;
+    top: 5px;
+    right: -4px;
     width: 30px;
 }
 
-.card h5{
+/* .card h5{
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.4;
@@ -130,7 +130,7 @@
 .card p{
     color: #767dac;
     font-size: 18px;
-}
+} */
 .card-div{
     position: relative;
 }
@@ -149,16 +149,14 @@
     background-color: #f6f7fb;
 }
 
-.service-hero h3{
+.service-hero h5{
     color: #33324e;
     font-size: 1.25 rem;
+    font-weight: 600;
 }
 
 .service-hero p{
     color: #767dac;
-}
-.container-fluid {
-    background-color: #f6f7fb;
 }
 
 .i i{
@@ -200,6 +198,10 @@
 .wd:hover{
     background-color: lightgrey;
     opacity: 1;
+}
+
+.bg-serv{
+    background-color: #F6F7FB;
 }
 
 .service h2{
@@ -271,6 +273,22 @@
     font-size: 30px;
 }
 
+.mx-in h6{
+    font-size: 14px;
+    color: #33324E;
+}
+
+.mx-in h2{
+    font-size: 24px;
+    color: #33324E;
+    font-weight: 700;
+}
+
+.mx-in p{
+    color: #33324E;
+    font-size: 16px;
+}
+
 .ms img{
     width: 150px;
     height: 150px;
@@ -316,26 +334,31 @@
 .blog{
     background-color: #f6f7fb;
 }
-.card-in{
+.block-card{
     background-color: #f6f7fb;
 }
-.card-in h5{
+.block-card h5{
     color: #33324e;
+    font-size: 20px;
 }
 
-#cardf{
-    font-size: 14px;
-    color: #767dac;
-    font-weight: 600;
-}
-
-#card-text{
-    color: #767dac;
-    font-size: 17px;
+.block-card p{
+    color: #767DAC;
+    font-size: 16px;
 }
 
 .contact-bg{
     background-color: #f6f7fb;
+}
+
+.contact-bg h5{
+    font-size: 18px;
+    color: #33324E;
+}
+
+.contact-bg p{
+    color: #767DAC;
+    font-size: 16px;
 }
 
 .contact-i i{
@@ -345,14 +368,19 @@
     color: #33324E;
 }
 
-.contact-i-in h6{
+.contact-i-in h5{
     color: #33324E;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .contact-i-in p{
     color: #767DAC;
 }
 
+.form-label{
+    color: #767DAC;
+}
 
 
 .footer{
@@ -366,7 +394,46 @@
     align-items: center;
 }
 
+.fp h5{
+    font-size: 18px;
+    color: #33324E;
+}
+
 .fp p{
     color: #767DAC;
+    font-size: 15px;
 }
-    
+
+.product-title h5{
+    font-size: 20px;
+    color: #33324E;
+}
+
+.product-title p{
+    font-size: 16px;
+    color: #767DAC;
+}
+
+.pri-card h4{
+    font-size: 24px;
+    color: #33324E;
+}
+
+.pri-card p{
+    font-size: 16px;
+    color: #767DAC;
+}
+
+.pri-card p span{
+    font-size: 16px;
+    color: #33324E;;
+}
+
+.team-card h5{
+    font-size: 18px;
+}
+
+.team-card p{
+    font-size: 16px;
+    color: #767DAC;
+}
