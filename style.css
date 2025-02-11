@@ -170,7 +170,7 @@
 
 .service-hero h5{
     color: #33324e;
-    font-size: 1.25 rem;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
@@ -460,3 +460,42 @@
     width: 440px;
     height: 492px;
 } */
+
+.ui-up{
+    background-color: #4353ff;
+    color: #fff;
+    padding: 6px 20px;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+    top: 30px;
+    right: 12px;
+}
+
+.ui-up-i i{
+    font-size: 13px;
+    margin-right: 5px;
+}
+.ui-up-ii i{
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.ui-up-i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui-up-ii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui-up-i span{
+    font-size: 15px;
+    margin-right: 20px;
+}
+.ui-up-ii span{
+    font-size: 15px;
+}
