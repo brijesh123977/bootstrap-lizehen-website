@@ -530,3 +530,44 @@
     top: 20px;
     left: 470px;
 }
+
+.arrow{
+    position: relative;
+    left: 77%;
+    top: 80px;
+    z-index: 1;
+}
+
+.tw-1{
+    width: 32rem;
+}
+.tw-2{
+    width: 25rem;
+}
+.tw-3{
+    width: 20rem;
+}
+.tw-4{
+    width: 26rem;
+}
+.tw-5{
+    width: 22rem;
+}
+
+@media all and (max-width: 991px){
+    .tw-1{
+        width: auto;
+    }
+    .tw-2{
+        width: auto;
+    }
+    .tw-3{
+        width: auto;
+    }
+    .tw-4{
+        width: auto;
+    }
+    .tw-5{
+        width: auto;
+    }
+}
