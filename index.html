@@ -140,43 +140,52 @@
         <div class="row">
           <div class="service-img col-lg-6 col-sm-12 mt-lg-5 d-flex justify-content-center align-items-center">
             <div class="container">
-              <img src="./images/img-4.png" alt="" class="img-fluid" />
+              <img id="bannerImage" src="./images/img-4.png" alt="" class="img-fluid" />
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="border-1 d-flex mb-4 p-3 wd mt-4 col-lg-12 col-sm-12">
-              <i class="fa-brands fa-wordpress fa-2xl mx-3 d-flex justify-content-start align-items-start pt-4"></i>
-              <div class="service-hero">
-                <h5>Wordpress Development</h5>
-                <p>
-                  Nulla et urna mauris Phasellus varius odio ut quam pharetra
-                  tristique Quisque lobortis velit felis nec aliquet est ursus
-                  velit ac tincidunt urna.
-                </p>
-              </div>
-            </div>
-            <div class="border-0 d-flex mb-4 p-3 wd col-sm-12">
-              <i class="fa-solid fa-shield-halved fa-2xl mx-3 d-flex justify-content-center align-items-start pt-4"></i>
-              <div class="service-hero">
-                <h5>Backup solution</h5>
-                <p>
-                  Vestibulum euismod tincidunt ligula at pharetra velit.
-                  Mauris nisi diam ornare dignissim metus ac vehicula
-                  imperdiet tortor Mauris a consequat mi.
-                </p>
-              </div>
-            </div>
-            <div class="border-0 d-flex p-3 wd col-sm-12">
-              <i
-                class="fa-solid fa-cloud-arrow-down fa-2xl mx-3 d-flex justify-content-center align-items-start pt-4"></i>
-              <div class="service-hero">
-                <h5>Cloud Hosting</h5>
-                <p>
-                  Laoreet est eleifend Phasellus nec mi eget libero ornare
-                  venenatis sit amet id turpis Interdum et malesuada fames ac
-                  ante primis in faucibus.
-                </p>
-              </div>
+          <div class="col-lg-6 ani-but">
+            <div class="row">
+              <button onclick="changeImage('./images/img-4.png')" class="button-word">
+                <div class="border-0 d-flex mb-4 p-3 wd mt-4 col-lg-12 col-sm-12">
+                  <i class="fa-brands fa-wordpress fa-2xl mx-3  pt-4"></i>
+                  <div class="service-hero">
+                    <h5 class="d-flex justify-content-start align-items-start">Wordpress Development</h5>
+                    <p class="d-flex justify-content-start align-items-start">
+                      Nulla et urna mauris Phasellus varius odio ut quam pharetra
+                      tristique Quisque lobortis velit felis nec aliquet est ursus
+                      velit ac tincidunt urna.
+                    </p>
+                  </div>
+                </div>
+              </button>
+              <button onclick="changeImage('./images/l-1.png')" class="button-word">
+                <div class="border-0 d-flex mb-4 p-3 wd col-sm-12">
+                  <i
+                    class="fa-solid fa-shield-halved fa-2xl mx-3 d-flex justify-content-center align-items-start pt-4"></i>
+                  <div class="service-hero">
+                    <h5 class="d-flex justify-content-start align-items-start">Backup solution</h5>
+                    <p>
+                      Vestibulum euismod tincidunt ligula at pharetra velit.
+                      Mauris nisi diam ornare dignissim metus ac vehicula
+                      imperdiet tortor Mauris a consequat mi.
+                    </p>
+                  </div>
+                </div>
+              </button>
+              <button onclick="changeImage('./images/l-2.png')" class="button-word">
+                <div class="border-0 d-flex p-3 wd col-sm-12">
+                  <i
+                    class="fa-solid fa-cloud-arrow-down fa-2xl mx-3 d-flex justify-content-center align-items-start pt-4"></i>
+                  <div class="service-hero">
+                    <h5 class="d-flex justify-content-start align-items-start">Cloud Hosting</h5>
+                    <p>
+                      Laoreet est eleifend Phasellus nec mi eget libero ornare
+                      venenatis sit amet id turpis Interdum et malesuada fames ac
+                      ante primis in faucibus.
+                    </p>
+                  </div>
+                </div>
+              </button>
             </div>
           </div>
         </div>
@@ -254,7 +263,7 @@
     </div>
     <div class="container">
       <div class="row d-flex justify-content-center">
-        <div class="card col-lg-3 col-sm-12 m-2 pricing-card pc shadow mb-5 bg-white rounded">
+        <div class="card border-0 col-lg-3 col-sm-12 pt-4 m-2 pricing-card pc shadow mb-5 bg-white rounded">
           <div class="card-body pri-card">
             <h4 class="card-title">STARTER</h4>
             <p class="card-text border-bottom pb-3">
@@ -277,12 +286,13 @@
             </div>
           </div>
         </div>
-        <div class="card col-lg-3 col-sm-12 m-2 border-primary pc shadow mb-5 bg-white rounded">
+        <div class="card col-lg-3 pt-4 col-sm-12 m-2 border-primary pc shadow mb-5 bg-white rounded">
+          <div class="popular">
+            <p class="bg-primary text-white"><b>Popular</b></p>
+          </div>
           <div class="card-body pri-card">
             <div class="d-flex justify-content-between">
-              <h4 class="card-title">Personal</h4>
-              <p class="bg-primary text-white"
-                style="padding:5px 12px 5px 12px; border-radius: 20px 0px 0px 20px; font-size: 15px;">Popular</p>
+              <h4 class="card-title">PERSONAL</h4>
             </div>
             <p class="border-bottom pb-3">
               Aliquam porttitor sagittis dignissim nibh amet rhoncus risus.
@@ -304,9 +314,9 @@
             </div>
           </div>
         </div>
-        <div class="card col-lg-3 col-sm-12 m-2 pricing-card pc shadow mb-5 bg-white rounded">
+        <div class="card border-0 col-lg-3 pt-4 col-sm-12 m-2 pricing-card pc shadow mb-5 bg-white rounded">
           <div class="card-body pri-card">
-            <h4 class="card-title">Ultimate</h4>
+            <h4 class="card-title">ULTIMATE</h4>
             <p class=" border-bottom pb-3">
               Aliquam porttitor sagittis dignissim nibh amet rhoncus risus.
             </p>
@@ -349,6 +359,7 @@
             <h4 class="d-flex justify-content-center align-items-center text-align-center pb-5">The European languages
               are members of the same family Their separate<br> existence is a myth For science, music, sport, etc,
               europe their Eopean<br> languages common the theory of popular words.</h4>
+            <center><p class="line"></p></center>
             <p class="text-center" style="color: #767dac;">DEVELOPER</p>
             <h5 class="text-center">Jeremiah Eskew</h5>
           </div>
@@ -359,9 +370,11 @@
             <h4 class="d-flex justify-content-center align-items-center text-align-center pb-5">The European languages
               are members of the same family Their separate<br> existence is a myth For science, music, sport, etc,
               europe their Eopean<br> languages common the theory of popular words.</h4>
+              <center><p class="line"></p></center>
             <p class="d-flex justify-content-center align-items-center" style="color: #767dac;">DESIGNER</p>
             <h5 class="d-flex justify-content-center align-items-center">Cameron Green</h5>
           </div>
+          
           <div class="carousel-item bg-in-bg" data-bs-interval="2000">
             <img src="./images/img-13.jpg" class="d-block w-100 mb-5" alt="1">
             <i
@@ -369,9 +382,10 @@
             <h4 class="d-flex justify-content-center align-items-center text-align-center pb-5">The European languages
               are members of the same family Their separate<br> existence is a myth For science, music, sport, etc,
               europe their Eopean<br> languages common the theory of popular words.</h4>
+              <center><p class="line"></p></center>
             <p class="d-flex justify-content-center align-items-center" style="color: #767dac;">MANAGER</p>
             <h5 class="d-flex justify-content-center align-items-center">Sammy Randolph</h5>
-          </div>
+          </div>  
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
           data-bs-slide="prev">
@@ -677,7 +691,7 @@
         <div class="col-lg-7 col-sm-12">
           <div class="row d-flex justify-content-center align-items-center">
             <div class="fp col-lg-3 col-sm-12">
-              <h5>Product</h5>
+              <h5 class="pb-3">Product</h5>
               <p>Services</p>
               <p>Features</p>
               <p>Credit</p>
@@ -685,7 +699,7 @@
               <p>Portfolio</p>
             </div>
             <div class="fp col-lg-3 col-sm-12">
-              <h5>Company</h5>
+              <h5 class="pb-3">Company</h5>
               <p>Missions</p>
               <p>Carrers</p>
               <p>Investors</p>
@@ -693,7 +707,7 @@
               <p>Blog</p>
             </div>
             <div class="fp col-lg-3 col-sm-12">
-              <h5>More Info</h5>
+              <h5 class="pb-3">More Info</h5>
               <p>Pricing</p>
               <p>For Marketing</p>
               <p>For CEOS</p>
@@ -701,7 +715,7 @@
               <p>Our Apps</p>
             </div>
             <div class="fp col-lg-3 col-sm-12">
-              <h5>Resources</h5>
+              <h5 class="pb-3">Resources</h5>
               <p>Form validation</p>
               <p>Visibility</p>
               <p>Accessibility</p>

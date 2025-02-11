@@ -1,5 +1,20 @@
-// const spinnerWrapperEl = document.querySelector('.spinner-wrapper');
+function changeImage(fileName){
+    let img = document.querySelector("#bannerImage");
+    img.setAttribute("src", fileName);
+}
 
-// setTimeout (() => {
-//     spinnerWrapperEl.style.opacity = '0';
-// }, 1000);
+
+
+// $(document).ready(function () {
+//     $(window).scroll(function () {
+//       if (this.scrollY > 20) {
+//         $(".navbar").addClass("sticky");
+//       } else {
+//         $(".navbar").removeClass("sticky");
+//       }
+//       if (this.scrollY > 500) {
+//         $(".scroll-up-btn").addClass("show");
+//       } else {
+//         $(".scroll-up-btn").removeClass("show");
+//       }
+//     });

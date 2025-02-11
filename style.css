@@ -176,6 +176,7 @@
 
 .service-hero p{
     color: #767dac;
+    text-align: start;
 }
 
 .i i{
@@ -214,7 +215,7 @@
     color: #33324e;
 }
 
-.wd:hover{
+.button-word:hover{
     background-color: lightgrey;
     opacity: 1;
 }
@@ -268,11 +269,8 @@
     width: auto;
     height: auto;
     background-size: cover;
-    position: relative;
     background-position: center center; 
 }
-
-
 
 .bg-in-bg img{
     width: 50px;
@@ -498,4 +496,37 @@
 }
 .ui-up-ii span{
     font-size: 15px;
+}
+
+.popular p{
+    padding:5px 15px 5px 15px; 
+    border-radius: 20px 0px 0px 20px; 
+    font-size: 15px;
+    position: absolute;
+    top: 17px;
+    right: 0px;
+}
+
+.ani-but button{
+    border: none;
+    margin-bottom: 10px;
+}
+
+.back-slider{
+    bachground-color: red;
+    position: absolute;
+}
+
+.line{
+    border: 1px solid blue;
+    width: 130px;    
+}
+
+.back-pink{
+    height: 350px;
+    width: 350px;
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    left: 470px;
 }
