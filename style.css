@@ -1,3 +1,22 @@
+.spinner-wrapper{
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.spinner-border{
+    height: 60px;
+    width: 60px;
+}
+
 .hero-label{
     background-color: #f6f7fb;
     border: 1px solid #f6f6f6;
