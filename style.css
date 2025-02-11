@@ -67,7 +67,7 @@
     color: #FFFFFF80;
 }   
 
-.img{
+/* .img{
     min-height: 558px;
     min-width: 546px;   
 }
@@ -75,7 +75,7 @@
 .img img{
     width: 85%;
     height: 90%;
-}
+} */
 
 .label-work p{
     background-color: rgba(67,83,255,.2);
@@ -438,7 +438,7 @@
     color: #767DAC;
 }
 
-.service-img{
+/* .service-img{
     width: 440px;
     height: 492px;
-}
+} */
