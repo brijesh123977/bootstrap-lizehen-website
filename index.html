@@ -3,8 +3,10 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+  <script src="js/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
   <script src="js/include-html-min.js"></script>
   <link rel="stylesheet" href="style.css" />
@@ -63,7 +65,8 @@
 
   <div class="container card-div mb-5">
     <div class="row">
-      <div class="card  col-lg-4 col-sm-12 d-flex flex-column justify-content-center align-items-start position-relative border-0">
+      <div
+        class="card  col-lg-4 col-sm-12 d-flex flex-column justify-content-center align-items-start position-relative border-0">
         <div class="arrow d-none d-lg-block">
           <img src="./images/arrow-1.png" alt="">
         </div>
@@ -142,47 +145,49 @@
           </div>
           <div class="col-lg-6 ani-but">
             <div class="row">
-              <button onclick="changeImage('./images/img-4.png')" class="button-word">
-                <div class="border-0 d-flex mb-4 p-3 wd mt-4 col-lg-12 col-sm-12">
-                  <i class="fa-brands fa-wordpress fa-2xl mx-3  pt-4"></i>
-                  <div class="service-hero">
-                    <h5 class="d-flex justify-content-start align-items-start">Wordpress Development</h5>
-                    <p class="d-flex justify-content-start align-items-start  text-wrap tw-4">
-                      Nulla et urna mauris Phasellus varius odio ut quam pharetra
-                      tristique Quisque lobortis velit felis nec aliquet est ursus
-                      velit ac tincidunt urna.
-                    </p>
+              <div id="myDIV">
+                <button onclick="changeImage('./images/img-4.png')" class="button-word active">
+                  <div class="border-0 d-flex mb-4 p-3 wd mt-4 col-lg-12 col-sm-12">
+                    <i class="fa-brands fa-wordpress fa-2xl mx-3  pt-4"></i>
+                    <div class="service-hero">
+                      <h5 class="d-flex justify-content-start align-items-start">Wordpress Development</h5>
+                      <p class="d-flex justify-content-start align-items-start  text-wrap tw-4">
+                        Nulla et urna mauris Phasellus varius odio ut quam pharetra
+                        tristique Quisque lobortis velit felis nec aliquet est ursus
+                        velit ac tincidunt urna.
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </button>
-              <button onclick="changeImage('./images/l-1.png')" class="button-word">
-                <div class="border-0 d-flex mb-4 p-3 wd col-sm-12">
-                  <i
-                    class="fa-solid fa-shield-halved fa-2xl mx-3 d-flex justify-content-center align-items-start pt-4"></i>
-                  <div class="service-hero">
-                    <h5 class="d-flex justify-content-start align-items-start">Backup solution</h5>
-                    <p class="text-wrap tw-4">
-                      Vestibulum euismod tincidunt ligula at pharetra velit.
-                      Mauris nisi diam ornare dignissim metus ac vehicula
-                      imperdiet tortor Mauris a consequat mi.
-                    </p>
+                </button>
+                <button onclick="changeImage('./images/l-1.png')" class="button-word">
+                  <div class="border-0 d-flex mb-4 p-3 wd col-sm-12">
+                    <i
+                      class="fa-solid fa-shield-halved fa-2xl mx-3 d-flex justify-content-center align-items-start pt-4"></i>
+                    <div class="service-hero">
+                      <h5 class="d-flex justify-content-start align-items-start">Backup solution</h5>
+                      <p class="text-wrap tw-4">
+                        Vestibulum euismod tincidunt ligula at pharetra velit.
+                        Mauris nisi diam ornare dignissim metus ac vehicula
+                        imperdiet tortor Mauris a consequat mi.
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </button>
-              <button onclick="changeImage('./images/l-2.png')" class="button-word">
-                <div class="border-0 d-flex mb-4 p-3 wd col-sm-12">
-                  <i
-                    class="fa-solid fa-cloud-arrow-down fa-2xl mx-3 d-flex justify-content-center align-items-start pt-4"></i>
-                  <div class="service-hero">
-                    <h5 class="d-flex justify-content-start align-items-start">Cloud Hosting</h5>
-                    <p class="text-wrap tw-4">
-                      Laoreet est eleifend Phasellus nec mi eget libero ornare
-                      venenatis sit amet id turpis Interdum et malesuada fames ac
-                      ante primis in faucibus.
-                    </p>
+                </button>
+                <button onclick="changeImage('./images/l-2.png')" class="button-word">
+                  <div class="border-0 d-flex mb-4 p-3 wd col-sm-12">
+                    <i
+                      class="fa-solid fa-cloud-arrow-down fa-2xl mx-3 d-flex justify-content-center align-items-start pt-4"></i>
+                    <div class="service-hero">
+                      <h5 class="d-flex justify-content-start align-items-start">Cloud Hosting</h5>
+                      <p class="text-wrap tw-4">
+                        Laoreet est eleifend Phasellus nec mi eget libero ornare
+                        venenatis sit amet id turpis Interdum et malesuada fames ac
+                        ante primis in faucibus.
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </button>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -346,17 +351,22 @@
     </div>
   </div>
   <div class="container-fluid bg my-5">
-    <div class="container mt-5">
+    <div class="container zxz mt-5">
+
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active bg-in-bg" data-bs-interval="2000">
+
             <img src="./images/img-11.jpg" class="d-block w-100 mb-5" alt="1">
+
             <i
               class="fa-solid fa-quote-left fa-2xl text-primary d-flex justify-content-center align-items-center pb-5"></i>
-            <h4 class="d-flex justify-content-center align-items-center text-align-center pb-5">The European languages
+            <h4 class="d-flex justify-content-center align-items-center text-center pb-5">The European languages
               are members of the same family Their separate<br> existence is a myth For science, music, sport, etc,
               europe their Eopean<br> languages common the theory of popular words.</h4>
-            <center><p class="line"></p></center>
+            <center>
+              <p class="line"></p>
+            </center>
             <p class="text-center" style="color: #767dac;">DEVELOPER</p>
             <h5 class="text-center">Jeremiah Eskew</h5>
           </div>
@@ -364,25 +374,28 @@
             <img src="./images/img-12.jpg" class="d-block w-100 mb-5" alt="1">
             <i
               class="fa-solid fa-quote-left fa-2xl text-primary d-flex justify-content-center align-items-center pb-5"></i>
-            <h4 class="d-flex justify-content-center align-items-center text-align-center pb-5">The European languages
+            <h4 class="d-flex justify-content-center align-items-center text-center pb-5">The European languages
               are members of the same family Their separate<br> existence is a myth For science, music, sport, etc,
               europe their Eopean<br> languages common the theory of popular words.</h4>
-              <center><p class="line"></p></center>
+            <center>
+              <p class="line"></p>
+            </center>
             <p class="d-flex justify-content-center align-items-center" style="color: #767dac;">DESIGNER</p>
             <h5 class="d-flex justify-content-center align-items-center">Cameron Green</h5>
           </div>
-          
           <div class="carousel-item bg-in-bg" data-bs-interval="2000">
             <img src="./images/img-13.jpg" class="d-block w-100 mb-5" alt="1">
             <i
               class="fa-solid fa-quote-left fa-2xl text-primary d-flex justify-content-center align-items-center pb-5"></i>
-            <h4 class="d-flex justify-content-center align-items-center text-align-center pb-5">The European languages
+            <h4 class="d-flex justify-content-center align-items-center text-center pb-5">The European languages
               are members of the same family Their separate<br> existence is a myth For science, music, sport, etc,
               europe their Eopean<br> languages common the theory of popular words.</h4>
-              <center><p class="line"></p></center>
+            <center>
+              <p class="line"></p>
+            </center>
             <p class="d-flex justify-content-center align-items-center" style="color: #767dac;">MANAGER</p>
             <h5 class="d-flex justify-content-center align-items-center">Sammy Randolph</h5>
-          </div>  
+          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
           data-bs-slide="prev">
@@ -395,13 +408,15 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <div class="back-colo"></div>
     </div>
   </div>
 
   <div class="container-fluid mx">
     <div class="container mx-in">
-      <h6 class="d-flex justify-content-center align-items-center mb-4">WHY YOU NEED LIZEHEN</h6>
-      <h2 class="d-flex justify-content-center align-items-center  mb-4 ">Join millions of users and grow your business.
+      <h6 class="d-flex justify-content-center align-items-center mb-4"><b>WHY YOU NEED LIZEHEN</b></h6>
+      <h2 class="d-flex justify-content-center align-items-center  mb-4 text-center">Join millions of users and grow
+        your<br> business.
       </h2>
       <p class="d-flex justify-content-center align-items-center mb-5">Join the free trial now.</p>
       <a href="https://www.google.com/"><i
@@ -418,9 +433,8 @@
   </div>
   <div class="container-fluid my-5">
     <div class="row col-sm-12 d-flex justify-content-center align-items-center">
-      <div
-        class="card border-0 p-lg-0 m-3 col-lg-12 col-sm-12 ms d-flex justify-content-center align-items-center shadow mb-5 bg-white rounded"
-        style="width: 18rem;">
+      <div class="card border-0 p-lg-0 m-3 col-lg-12 col-sm-12 ms d-flex justify-content-center align-items-center"
+        style="width: 18rem; box-shadow: 0 6px 50px rgba(0,0,0,.05);">
         <div class="msg-div">
           <img src="./images/img-11.jpg" class="card-img-top mt-3" alt="">
           <i class="fa-solid fa-envelope text-white msg-i"></i>
@@ -445,9 +459,8 @@
           </div>
         </div>
       </div>
-      <div
-        class="card border-0 col-sm-12 m-3 p-lg-0 ms d-flex justify-content-center align-items-center shadow mb-5 bg-white rounded"
-        style="width: 18rem;">
+      <div class="card border-0 col-sm-12 m-3 p-lg-0 ms d-flex justify-content-center align-items-center"
+        style="width: 18rem; box-shadow: 0 6px 50px rgba(0,0,0,.05);">
         <div class="msg-div">
           <img src="./images/img-12.jpg" class="card-img-top mt-3" alt="">
           <i class="fa-solid fa-envelope text-white msg-i"></i>
@@ -472,9 +485,8 @@
           </div>
         </div>
       </div>
-      <div
-        class="card border-0  col-sm-12 m-3 p-lg-0 ms d-flex justify-content-center align-items-center shadow mb-5 bg-white rounded"
-        style="width: 18rem;">
+      <div class="card border-0  col-sm-12 m-3 p-lg-0 ms d-flex justify-content-center align-items-center"
+        style="width: 18rem; box-shadow: 0 6px 50px rgba(0,0,0,.05);">
         <div class="msg-div">
           <img src="./images/img-13.jpg" class="card-img-top mt-3" alt="">
           <i class="fa-solid fa-envelope text-white msg-i"></i>
@@ -499,9 +511,8 @@
           </div>
         </div>
       </div>
-      <div
-        class="card border-0 col-sm-12 m-3 p-lg-0 ms d-flex justify-content-center align-items-center shadow mb-5 bg-white rounded"
-        style="width: 18rem;">
+      <div class="card border-0 col-sm-12 m-3 p-lg-0 ms d-flex justify-content-center align-items-center"
+        style="width: 18rem; box-shadow: 0 6px 50px rgba(0,0,0,.05);">
         <div class="msg-div">
           <img src="./images/img-14.jpg" class="card-img-top mt-3" alt="">
           <i class="fa-solid fa-envelope text-white msg-i"></i>
@@ -556,7 +567,8 @@
           <div class="card-body block-card">
             <p>UI & UX Design</p>
             <h5>Doing a cross country road trip</h5>
-            <p class="text-wrap tw-5">Curabitur lacus maximus suscipit curtur eget lectus lacinia consectetur dolor id volutpat
+            <p class="text-wrap tw-5">Curabitur lacus maximus suscipit curtur eget lectus lacinia consectetur dolor id
+              volutpat
               magna fermentum bibendum.</p>
             <a href="#" class="btn btn-primary">Read more</a>
           </div>
@@ -578,7 +590,8 @@
           <div class="card-body block-card">
             <p id="cardf">Digital Marketing</p>
             <h5 class="card-title">New exhibition at our Museum</h5>
-            <p id="card-text" class="text-wrap tw-5">The wise man therefore always holds in these matters to this principle of selection
+            <p id="card-text" class="text-wrap tw-5">The wise man therefore always holds in these matters to this
+              principle of selection
               rejects pleasures secure other pains.</p>
             <a href="#" class="btn btn-primary">Read more</a>
           </div>
@@ -600,7 +613,9 @@
           <div class="card-body block-card">
             <p id="cardf">Travelling</p>
             <h5 class="card-title">Why are so many people..</h5>
-            <p id="card-text" class="text-wrap tw-5">Juis autem vel eumat reprehenderit voluptate velit esse quam nihil molestiae consequatur
+            <p id="card-text" class="text-wrap tw-5">Juis autem vel eumat reprehenderit voluptate velit esse quam
+              nihil
+              molestiae consequatur
               fugiat voluptas nulla pariatur.</p>
             <a href="#" class="btn btn-primary">Read more</a>
           </div>
@@ -617,7 +632,7 @@
   </div>
   <div class="container my-5">
     <div class="row">
-      <div class="contact-bg col-lg-3 col-sm-12 p-lg-4 pt-sm-4 m-lg-4">
+      <div class="contact-bg col-lg-3 col-sm-12 p-lg-4 pt-sm-4 m-lg-4 p-5">
         <div class="mb-4">
           <h5>Contact Details</h5>
           <p>Faucibus orci luctus atet ultrices posuere duiorci sollicitudin luctus.</p>
@@ -729,7 +744,6 @@
     </div>
   </div>
   </div>
-
 </body>
 
 </html>
