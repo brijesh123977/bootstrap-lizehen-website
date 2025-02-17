@@ -1,6 +1,6 @@
 function changeImage(fileName){
-    let img = document.querySelector("#bannerImage");
-    img.setAttribute("src", fileName);
+  let img = document.querySelector("#bannerImage");
+  img.setAttribute("src", fileName);
 }
 
 
@@ -8,10 +8,9 @@ function changeImage(fileName){
 var header = document.getElementById("myDIV");
 var btns = header.getElementsByClassName("button-word");
 for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
+btns[i].addEventListener("click", function() {
+var current = document.getElementsByClassName("active");
+current[0].className = current[0].className.replace(" active", "");
+this.className += " active";
+});
 }
-
