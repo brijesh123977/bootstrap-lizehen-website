@@ -1,3 +1,55 @@
+/* header css start */
+.logo {
+  width: 7rem;
+}
+
+.main {
+  background-color: #33324e;
+}
+
+.main-1 a,
+i {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.collapse ul li a {
+  color: #767dac;
+}
+
+.singup-btn {
+  background: 1px solid black;
+  padding: 2px 15px;
+  border-radius: 5px;
+  background-color: rgba(67, 83, 255, 0.25);
+  color: #4353ff;
+}
+
+.singup-btn a {
+  color: #4353ff;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+
+@media all and (max-width: 991px) {
+  .singup-btn {
+    padding: 0px 0px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+  } 
+}
+
+/* header css end */
+body{
+  margin: 0;
+  padding: 0;
+}
 h1,
 h2,
 h3,

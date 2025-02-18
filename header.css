@@ -20,6 +20,7 @@ i {
   padding: 2px 15px;
   border-radius: 5px;
   background-color: rgba(67, 83, 255, 0.25);
+  color: #4353ff;
 }
 
 .singup-btn a {
@@ -30,5 +31,15 @@ i {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 9999;
+  z-index: 99;
+}
+
+
+@media all and (max-width: 991px) {
+  .singup-btn {
+    padding: 0px 0px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+  } 
 }
